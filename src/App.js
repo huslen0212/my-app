@@ -2,11 +2,9 @@ import Counter from "./components/counter";
 import User from "./components/user";
 import Todo from "./components/todo";
 
-import "./App.css";
-
 function App() {
   return (
-    <div className="App">
+    <div className="flex justify-between">
       <Counter />
       <User />
       <Todo />
